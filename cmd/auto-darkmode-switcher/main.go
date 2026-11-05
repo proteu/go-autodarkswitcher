@@ -19,7 +19,7 @@ func modeName(dark bool) string {
 }
 
 func main() {
-	threshold := flag.Float64("v", 0.8, "亮度切换阈值 (0.0 - 1.0)，低于此值切入暗黑模式")
+	threshold := flag.Float64("v", 0.7, "亮度切换阈值 (0.0 - 1.0)，低于此值切入暗黑模式")
 	interval := flag.Int("i", 5, "轮询检测间隔时间（秒）")
 	debounceSec := flag.Int("d", 3, "防抖观察时长（秒），状态稳定持续超过此时间才真正执行外观切换")
 	flag.Parse()
