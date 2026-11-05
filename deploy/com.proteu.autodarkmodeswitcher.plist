@@ -20,6 +20,8 @@
         <string>0.78</string>
         <string>-i</string>
         <string>10</string>
+        <string>-d</string>
+        <string>5</string>
     </array>
 
     <key>RunAtLoad</key>
