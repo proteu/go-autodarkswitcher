@@ -24,6 +24,8 @@
         <string>10</string>
         <string>-d</string>
         <string>5</string>
+        <string>-l</string>
+        <string>info</string>
     </array>
 
     <key>RunAtLoad</key>
